@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>REGISTER FORM</title>
+	<style>
+		body{
+	background-image:url("blue.jpg");
+	background-attachment:fixed;
+	
+	background-size:cover;
+	}
+	p
+	{
+		color:black;
+		font-size:50px;
+		font-family:fantasy;
+	}
+	h1
+	{
+		text-align:center;
+		padding:left;
+		color:red;
+		
+	}
+	
+	
+	h5
+	{
+		font-size:80%;
+		font-family:verdana;
+		color:black;
+	}
+	</style>
+</head>
+<body Bgcolor="pink">
+
+	<FORM Action="register.php" Method="post">
+	<p>
+	<h1 >REGISTRATION FORM </h1>
+	<h5> FIRST NAME : &nbsp;&nbsp;
+	<INPUT Type="text" Name="firstname" size="30" Maxlength="25">  MIDDLE NAME :  <INPUT Type="text" Name="middlename" size="30" Maxlength="25">  LAST NAME : <INPUT Type="text" Name="lastname" size="30" Maxlength="25"><br>
+	<br>FATHER NAME : &nbsp;&nbsp;
+	<INPUT Type="text" Name="fathername" size="30" Maxlength="25"> <br>
+	<br>GENDER       :
+	<INPUT Type="radio" Name="gender" value="FEMALE">FEMALE
+	<INPUT Type="radio" Name="gender" value="MALE">MALE
+	<INPUT Type="radio" Name="gender" value="TRANSGENDER">TRANSGENDER<br>
+	<br><label for="DATE OF BIRTH">DATE OF BIRTH:</label>
+  <input type="date" id="birthday" name="birthday"><br>
+  
+  <br>EMAIL ID : &nbsp;&nbsp;
+	<INPUT Type="text" Name="emailid" size="30" Maxlength="25"> <br>
+	<br>PERSONAL ADDRESS : &nbsp;&nbsp;
+	<TEXTAREA Rows="5" cols="30" Name="address">
+	Enter address
+	</TEXTAREA><br>
+	<br>ADDRESS : &nbsp;&nbsp;
+	<TEXTAREA Rows="5" cols="30" Name="add">
+	Enter address
+	</TEXTAREA><br>
+	<br>CITY: &nbsp;&nbsp;
+	<INPUT Type="text" Name="city" size="30" Maxlength="25"> <br>
+	<br>DISTRICT: &nbsp;&nbsp;
+	<INPUT Type="text" Name="dist" size="30" Maxlength="25"> <br>
+	<br>STATE: &nbsp;&nbsp;
+	<INPUT Type="text" Name="state" size="30" Maxlength="25"> <br>
+	<br>PHONE NUMBER: &nbsp;&nbsp;
+	<INPUT Type="text" Name="state" size="30" Maxlength="25"> <br>
+	<br>QUALIFICATIONS:<br>
+	<INPUT Type="checkbox" Name="qualifications" value="POSTGRADUATE">POST GRADUATE<br>
+	<INPUT Type="checkbox" Name="qualifications" value="UNDER GRADUATE">UNDER GRADUATE<br>
+	<INPUT Type="checkbox" Name="qualifications" value="PLUSTWO">PLUS TWO<br>
+	<INPUT Type="checkbox" Name="qualifications" value="SSLC">SSLC<br>
+	<br>COURSE: &nbsp;&nbsp;
+	<INPUT Type="text" Name="coursee" size="30" Maxlength="25"> <br>
+	
+	
+	
+	<br>
+	<br>
+	<input type="submit" value="SAVE">
+	
+	<input type="reset" value="CLEAR">
+	
+	
+	
+	
+  
+  </h5>
+	</p>
+</form>
+	</body>
+</html>
